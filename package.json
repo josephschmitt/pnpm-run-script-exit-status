@@ -1,0 +1,9 @@
+{
+  "name": "my-package",
+  "version": "0.0.0",
+  "scripts": {
+    "test:exit": "exit 1",
+    "test:pnpm": "pnpm run test:exit; echo STATUS: $?",
+    "test:npm": "npm run test:exit; echo STATUS $?; "
+  }
+}
