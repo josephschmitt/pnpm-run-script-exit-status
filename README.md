@@ -3,7 +3,7 @@
 This repo demonstrates a bug with pnpm run-script whereby the exit status is always 0. The
 package.json to reproduce this bug is set up with the following scripts:
 
-- `test:exit`: An npm script that just always exits 1
+- `test:exit`: A `package.json` script that just always exits 1
 - `test:pnpm`: A `package.json` script that runs the exit script using pnpm
 - `test:npm`: A `package.json` script that runs the exit script using npm
 
